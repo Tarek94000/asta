@@ -1,4 +1,3 @@
-²
 # Rapport - ASTA - Application de Suivi de Tutorats d'Apprentis
 
 ## 1. Objectif du Projet
