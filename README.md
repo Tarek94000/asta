@@ -55,6 +55,6 @@ Le projet ASTA répond pleinement aux attentes en matière de gestion des appren
 
 ## 9. Informations Pratiques
 - **Identifiants de test** : `tuteur`, `password`
-- **IDE utilisé** : IntelliJ IDEA Ultimate Edition
+- **IDE utilisé** : IntelliJ IDEA
 - **SGBD utilisé** : MariaDB 10.5.8
 
