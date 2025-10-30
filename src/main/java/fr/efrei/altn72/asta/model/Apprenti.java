@@ -19,7 +19,7 @@ public class Apprenti {
     private String programme;
     private String majeure;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinColumn(name = "entreprise_id")
     private Entreprise entreprise; // Relation vers Entreprise
 
@@ -32,3 +32,4 @@ public class Apprenti {
     @OneToOne(cascade = CascadeType.ALL)
     private EvaluationEcole evaluationEcole; // Relation vers EvaluationEcole
 }
+
