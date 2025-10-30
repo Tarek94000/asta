@@ -30,16 +30,3 @@ CREATE TABLE Apprenti (
     programme VARCHAR(100),
     FOREIGN KEY (entreprise_raison_sociale) REFERENCES Entreprise(raison_sociale)
 );
-
--- Insérer des entreprises
-INSERT INTO Entreprise (raison_sociale, adresse, contact_email) 
-VALUES 
-('TechCorp', '10 rue de Paris, Paris', 'contact@techcorp.com'),
-('DevSolutions', '45 avenue des Champs, Lyon', 'contact@devsolutions.com');
-
--- Insérer des apprentis
-INSERT INTO Apprenti (nom, prenom, email, telephone, entreprise_raison_sociale, entreprise_adresse, major_m2_pro, annee_academique, programme)
-VALUES
-('Dupont', 'Jean', 'jean.dupont@email.com', '0123456789', 'TechCorp', '10 rue de Paris, Paris', 'Transformation Digitale', '2023-2024', 'M2 PRO'),
-('Martin', 'Lucie', 'lucie.martin@email.com', '0987654321', 'DevSolutions', '45 avenue des Champs, Lyon', 'Data Science', '2023-2024', 'M2 PRO');
-
